@@ -13,7 +13,7 @@ function Section4() {
                 display: 'flex',
                 flexDirection: "column",
                 alignItems: "center",
-                bgcolor: 'textSecondary',
+                bgcolor: '#e0e0e0',
                 justifyContent:"center",
             }}>
                 <Box>

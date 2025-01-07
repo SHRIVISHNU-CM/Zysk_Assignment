@@ -16,7 +16,8 @@ function Questions() {
                 height:"60vh"
             }}>
                 <Typography variant='h4' component="h2" sx={{
-                    textAlign: "center"
+                    textAlign: "center",
+                    mt:6
                 }}>
                     Frequently asked questions
                 </Typography>
@@ -43,7 +44,7 @@ function Questions() {
                 </Accordion>
                 <Accordion>
                     <AccordionSummary
-                        expandIcon={<ArrowDropDownIcon />}
+                        expandIcon={<ArrowDownwardIcon />}
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >

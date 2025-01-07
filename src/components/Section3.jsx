@@ -56,7 +56,8 @@ function Section3() {
                 m: "auto"
             }}>
                 <Typography variant="h6" align="center" sx={{
-                    color: "red"
+                    color: "red",
+                    mt:7
                 }}>
                     Features
                 </Typography>

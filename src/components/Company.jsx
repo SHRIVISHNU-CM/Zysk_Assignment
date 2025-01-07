@@ -22,7 +22,9 @@ function Company() {
                 width:"100%"
             }}>
                 <Typography variant='body2' component="h2" sx={{
-                    textAlign: "center"
+                    textAlign: "center",
+                    mt:3,
+                    mb:3
                 }}>
                     Join 4,000+ companies already growing
                 </Typography>

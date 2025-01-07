@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typography, Box } from '@mui/material'
 import image1 from "../images/image-1.png"
-
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 function Hero() {
     return (
         <>
@@ -27,13 +27,18 @@ function Hero() {
                         border: "1px solid red",
                         // minWidth:"50px",
                         borderRadius: "50px",
-                        padding: "4px 3px"
+                        padding: "6px 4px"
                     }}>
                         New feature
                     </Typography>
-                    <Typography>
+                    <Typography variant="body2" component="h2" sx={{
+                        padding:"10px 5px"
+                    }}>
                         Check out the team dashboard
+                        
+                        
                     </Typography>
+                    <ArrowRightAltIcon/>
                 </Box>
                 <Typography variant='h4' component="h2" sx={{
                     textAlign: "center"

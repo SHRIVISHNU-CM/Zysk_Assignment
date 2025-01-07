@@ -43,9 +43,10 @@ function Blog() {
     return (
         <Box
             sx={{
-
+                height:"minheight",
                 maxWidth: "1200px",
                 margin: "auto",
+                padding:"60px 0"
             }}
         >
             {/* Header */}
@@ -55,7 +56,7 @@ function Blog() {
                 alignItems:"center"
             }}>
                 <Box sx={{ marginBottom: "40px" }}>
-                    <Typography variant="subtitle1" color="primary" gutterBottom>
+                    <Typography variant="subtitle1" color="error" gutterBottom>
                         Our Blog
                     </Typography>
                     <Typography variant="h4" fontWeight="bold" gutterBottom>
