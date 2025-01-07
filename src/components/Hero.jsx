@@ -1,6 +1,7 @@
 import React from 'react'
 import { Typography, Box } from '@mui/material'
 import image1 from "../images/image-1.png"
+import image2 from "../images/image-2.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 function Hero() {
     return (
@@ -90,9 +91,18 @@ function Hero() {
 
                 <Box sx={{
                     mt:3,
-                    textAlign:"center"
+                    textAlign:"center",
+                    display:{lg:"block",xs:"none",sm:"none",md:"none"}
                 }}>
                     <img src={image1} />
+
+                </Box>
+                <Box sx={{
+                    mt:3,
+                    textAlign:"center",
+                    display:{lg:"none",xs:"block",sm:"block",md:"block"}
+                }}>
+                    <img src={image2} />
 
                 </Box>
 

@@ -14,7 +14,7 @@ function Navbar() {
             alignItems: "center"
         }}>
             <Box sx={{
-                display: "flex",
+                display: "flex" ,
                 gap: "30px"
             }}>
                 <Typography variant='body1' component="h2" sx={{
@@ -22,19 +22,25 @@ function Navbar() {
                 }}>
                     ZYSK
                 </Typography>
-                <Typography variant='body2' component="h2">
-                    Home
-                </Typography>
-                <Typography variant='body2' component="h2">
-                    Products
-                </Typography>
-                <Typography variant='body2' component="h2">
-                    Resources
-                </Typography>
-                <Typography variant='body2' component="h2">
-                    Pricing
-                </Typography>
-
+                <Box sx={{
+                  display: { lg: "flex", xs: "none", sm: "none", md: "none" },
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    gap: "30px"
+                }}>
+                    <Typography variant='body2' component="h2">
+                        Home
+                    </Typography>
+                    <Typography variant='body2' component="h2">
+                        Products
+                    </Typography>
+                    <Typography variant='body2' component="h2">
+                        Resources
+                    </Typography>
+                    <Typography variant='body2' component="h2">
+                        Pricing
+                    </Typography>
+                </Box>
             </Box>
             <Box>
                 <Avatar sx={{
